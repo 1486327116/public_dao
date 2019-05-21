@@ -1,4 +1,4 @@
-package dao
+package public_dao
 
 import (
 	"github.com/jinzhu/gorm"
