@@ -1,8 +1,8 @@
 package dao
 
 import (
+	"bitbucket.org/yeting0206/public_dao"
 	"fmt"
-	"public_dao"
 	"time"
 )
 
@@ -22,5 +22,5 @@ func (p *Bar) NewOne() {
 		BarName: "this public_dao test",
 	})
 
-	fmt.Println("success new one bar,",record)
+	fmt.Println("success new one bar,", record)
 }
