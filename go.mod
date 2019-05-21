@@ -1,4 +1,4 @@
-module bitbucket.org/yeting0206/public_dao
+module bitbucket.org/yeting0206/public_dao.git
 
 go 1.12
 
