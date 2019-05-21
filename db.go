@@ -1,4 +1,4 @@
-package public_dao
+package dao
 
 import (
 	"github.com/jinzhu/gorm"
@@ -6,10 +6,10 @@ import (
 	"time"
 )
 
-
 var DB *gorm.DB
+
 func init() {
-	url :="root:123456@/mydb01?charset=utf8mb4&parseTime=True&loc=Local"
+	url := "root:123456@/mydb01?charset=utf8mb4&parseTime=True&loc=Local"
 	DB, _ = gorm.Open("mysql", url)
 	// SetMaxIdleConns sets the maximum number of connections in the idle connection pool.
 	DB.DB().SetMaxIdleConns(10)
